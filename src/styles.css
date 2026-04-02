@@ -1,0 +1,73 @@
+
+
+.app {
+  font-family: Arial;
+  padding: 20px;
+  background: #f0f6ff;
+  color: #0f172a; /* darker text */
+}
+
+.app h1 {
+  color: #1e3a8a; /* strong blue heading */
+  font-weight: bold;
+}
+
+.app.dark {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.app.dark h1 {
+  color: #60a5fa; /* lighter blue for dark mode */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls select, .controls button {
+  margin-left: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.card {
+  background: #5e8dcb;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.dark .card {
+  background: #1e3a8a;
+}
+
+.insights {
+  margin-bottom: 20px;
+}
+
+.transactions input {
+  padding: 8px;
+}
+
+.transactions table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.transactions th, .transactions td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.green { color: green; }
+.red { color: red; }
+
+
